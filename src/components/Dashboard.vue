@@ -9,7 +9,7 @@
             <span class="prefix">₱</span>{{ fmt(totalUnpaid) }}
           </div>
         </div>
-        <div class="bm-icon">{{ totalUnpaid > 0 ? '💰' : '✅' }}</div>
+        <div class="bm-icon">{{ totalUnpaid > 0 ? ' ' : ' ' }}</div>
       </div>
 
       <!-- 4 stat cards -->

@@ -9,7 +9,7 @@
           <option value="payment">Payments Only</option>
         </select>
         <button class="pdf-btn" @click="showPdfModal = true">
-          GET PDF FILE 🧾
+          GET PDF FILE 
         </button>
       </div>
     </div>

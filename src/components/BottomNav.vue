@@ -1,8 +1,8 @@
 <template>
   <div class="bottom-nav">
-    <button class="bn-btn job"   @click="$emit('log-job')">🔨 Log Job</button>
-    <button class="bn-btn pay"   @click="$emit('pay')">💳 Pay Staff</button>
-    <button class="bn-btn staff" @click="$emit('add-staff')">👷 Add Staff</button>
+    <button class="bn-btn job"   @click="$emit('log-job')">Log Job</button>
+    <button class="bn-btn pay"   @click="$emit('pay')">Pay Staff</button>
+    <button class="bn-btn staff" @click="$emit('add-staff')">Add Staff</button>
   </div>
 </template>
 
